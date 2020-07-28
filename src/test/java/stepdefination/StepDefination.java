@@ -50,7 +50,10 @@ import Newpackageforbaseclass.Createdriverinstance;
 	    @And("^Enter  password \"([^\"]*)\"$")
 	    public void enter_password_something(String strArg1) throws Throwable {
 	    	login.Loginpassword("salu"); 
-	    	System.out.println(post jira 333);
+System.out.println("post jira 333");
+System.out.println("post jira 333");
+System.out.println("post jira 333");
+System.out.println("post jira 333");
 	    }
 
 	    @And("^click on submit button$")
