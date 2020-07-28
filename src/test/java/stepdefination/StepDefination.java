@@ -32,7 +32,7 @@ import Newpackageforbaseclass.Createdriverinstance;
 	    @When("^Enter username \"([^\"]*)\"$")
 	    public void enter_username_something(String strArg1) throws Throwable {
 	    	login = new loginpage(driver);
-			login.LoginUserID("shivangi");
+			login.LoginUserID("salu");
 	    }
 
 	    @Then("^User should be able to login successfully$")
@@ -49,7 +49,8 @@ import Newpackageforbaseclass.Createdriverinstance;
 
 	    @And("^Enter  password \"([^\"]*)\"$")
 	    public void enter_password_something(String strArg1) throws Throwable {
-	    	login.Loginpassword("passowrd"); 
+	    	login.Loginpassword("salu"); 
+	    	System.out.println(post jira 333);
 	    }
 
 	    @And("^click on submit button$")
